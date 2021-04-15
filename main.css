@@ -113,3 +113,195 @@ a:hover {
   vertical-align: middle;
   margin: 0 .5rem;
 }
+@media (min-width: 768px) {
+
+  .cover {
+    background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center/cover;
+  }
+
+}
+@media (min-width: 768px) {
+
+  .hero-text {
+    padding: 1.25rem;
+    border-radius: 4px;
+    width: 50%;
+  }
+
+  .hero-text h1 {
+    font-size: 7rem;
+  }
+
+@media (min-width: 768px) {
+
+  .tagline {
+    text-transform: uppercase;
+  }
+
+}
+/* =============================
+
+      LOCATIONS STYLES
+
+=============================*/
+
+.icons img {
+  height: 7.5rem;
+}
+
+.icons h3 {
+  font-weight: 700;
+}
+
+.icons div {
+  font-family: 'Mulish', sans-serif;
+}
+  .icons{
+    display: inline-block;
+  }
+
+.icons::after {
+  content: "";
+  display: block;
+  height: .1875rem;
+  width: 25vw;
+  margin: 1.5rem auto;
+  background-color: #444349;
+}
+  @media (min-width: 768px) {
+
+  .icons {
+    display: inline-block;
+    width: 30%;
+    padding: 1.5rem;
+    margin: .5rem;
+  }
+}
+  .icons::after {
+    display: none;
+  }
+}
+/* =============================
+
+        PROGRAM STYLES
+
+=============================*/
+
+.program {
+  width: 100vw;
+  text-align: left;
+  background: hsla(100,0%,0%,.6);
+  color: #d2ba87;
+  font-family: 'Muli', sans-serif;
+}
+
+.program h2 {
+  font-family: 'Great Vibes', cursive;
+  margin-top: 1rem; /* To account for the unequal margins compared to the previous section. */
+  text-align: center;
+}
+
+.program p {
+  font-style: italic;
+}
+
+.program ul {
+  letter-spacing: .025rem;
+}
+@media (min-width: 768px) {
+
+  .program-wrapper {
+    width: 30vw;
+    margin: 0 auto;
+  }
+
+}
+/* =============================
+
+        GIFTS STYLES
+
+=============================*/
+
+.gifts img {
+  height: 7.5rem;
+}
+
+.gifts p:last-child {   /* To even out the bottom and top margins of this section. */
+  margin-bottom: 0;
+}
+/* =============================
+
+        q-a STYLES
+
+=============================*/
+
+.q-a {
+  background: hsla(100,0%,0%,.6);
+  color: #d2ba87;
+  width: 100vw;
+  text-align: center;
+}
+
+.q-a h2 {
+  margin-top: 1rem; /* To even out top and bottom margins. */
+}
+
+.q-a p {
+  font-family: 'Muli', sans-serif;
+  text-align: left;
+}
+
+.question-columns::after {
+  content: "";
+  display: block;
+  height: .1875rem;
+  width: 50vw;
+  margin: 1.5rem auto;
+  background-color: #d2ba87;
+}
+
+.q {
+  font-weight: 700;
+  margin-bottom: .5rem;
+}
+
+.a {
+  margin-bottom: 1.5rem;
+}
+/* =============================
+
+        FOOTER STYLES
+
+=============================*/
+
+footer {
+  height: 10vh;
+  width: 100vw;
+  background-color: #606060;
+  color: #fff;
+  font-family: 'Muli', sans-serif;
+  display: table;
+  text-align: center;
+  font-size: .875rem;
+}
+
+.footer-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  padding: .5rem 1rem;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+footer small {
+  line-height: 1.5;
+}
+    @media (min-width: 768px) {
+
+  footer {
+    min-height: 7vh;
+  }
+
+}
